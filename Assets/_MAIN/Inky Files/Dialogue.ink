@@ -372,6 +372,7 @@ The scene is both awe-inspiring and daunting, with vast stretches of untamed wil
 
 You take a deep breath, steeling yourself for the challenges ahead. 
 The planet's atmosphere was the first of many obstacles. 
+#background: Flaming Ship
 The rich oxygen contents superheated the metal hull of the pod, damahing it extensively.
 As the crew descended further, visible through the shuttle's viewfinder debris and panels broke off from the shuttle.
 The scrap metal rained down over the verdant landscape below.
@@ -736,9 +737,10 @@ You prepared to address the latest challenge together.
 * [Plan an immediate action] -> ImmediateAction
 
 === EnterStructure ===
-#speaker: #portrait:Default #music:Exploration and Hope #background:Structure
+#speaker: #portrait:Default #music:Exploration and Hope #background:Interior
 Inside, the air was cool and still. Each step kicked up more and more dust.
 It was clear the building had been abandoned for some time.
+#background:Map
 In the center of the room there appeared to be a faded image of what looked to be a map.
 Symbols next to them, writings, were unreadable. The ancient Erith alphabet was nowhere near Klorax common.
 The image appeared to be a maze of square rooms and hallways.
@@ -747,7 +749,7 @@ The image appeared to be a maze of square rooms and hallways.
 * [Report findings to the ship] -> ReportToShip
 
 === StudyExterior ===
-#speaker: #portrait:Default #music: #background:Structure
+#speaker: #portrait:Default #music: #background:Exterior
 Studying the exterior of the structure, you find more symbols and complex mechanisms.
 The longer you looked at them the more familiar they began to look.
 A large circle surrounded by rings, rings containing a maximum of 8 smaller circles.
@@ -883,7 +885,7 @@ You could allow this unknown technology to do what it pleased to Kael's suit or 
 * [She is too important to lose]-> FocusSpecificAreas
 
 === FocusSpecificAreas===
-#speaker:Admiral Kril #portrait:Admiral #music: #background:Caution
+#speaker:Admiral Kril #portrait:Admiral #music:Caution #background:Reactor
 "Kael rip that thing from your forearm Immediately!"
 #speaker:  #portrait:Default
 Your thunderous order startled everyone in the room, it had appeared you were the only one who thought of malevelent consequences.
@@ -917,7 +919,7 @@ This was a successful operation. Pride filled in your heart.
 -> CelebrateDiscovery
 
 === CelebrateDiscovery===
-#speaker: #portrait:Default #music:Leaving Erith or making a huge discovery #background:Structure
+#speaker: #portrait:Default #music:Leaving Erith or making a huge discovery #background:Exterior
 As you all began to leave the building moral was at an all time high.
 You let your troops converse amongst themselves as you decided on the next step.
 It would be wise to deliver the report directly to the Eclipse however the success of your first mission was clouding your judgement.
@@ -926,7 +928,7 @@ It made you want to push forward with a new mission straight away.
 -> PlanNextMission
 
 === PlanNextMission===
-#speaker: #portrait:Default #music: #background:Structure
+#speaker: #portrait:Default #music: #background:Exterior
 Logic be damned you pulled Lieutenant Kael aside to decide on the next course of action.
 #speaker:Admiral Kril #portrait:Admiral
 "Lieutenant at ease, we have made a great beginning on this supposed hellworld. Now we push forward to the second act."
@@ -985,7 +987,7 @@ It was your choice to make on behalf of your crew.
 * [Return to the ship] -> ReturnToShip
 
 === DecipherSymbols ===
-#speaker: #portrait:Default #music:Curiosity and Exploration #background: Structure
+#speaker: #portrait:Default #music:Curiosity and Exploration #background:Exterior
 You attempt to decipher the symbols. 
 Slowly, their meaning becomes clear it was atomic structuring of the elements of the universe.
 The element depicted on the walls was Uranium, it was used for the most horrible and disgusting of things.
@@ -996,7 +998,7 @@ Your mind raced with the possibilities of what lied in wait inside.
 * [Take detailed notes] -> DetailedNotes
 
 === DetailedNotes===
-#speaker: #portrait:Default #background: Structure
+#speaker: #portrait:Default #background: Exterior
 Having noted the meanings of the symbols you began to decipher the ancient language. 
 The word for Uranium became clear, it was a strange word far from Klorax common.
 The rest of your crew began to marvel in your findings, they took high definition images of the walls and carvings.
@@ -1088,7 +1090,31 @@ With your headlamp as your only available light source you set out into the jung
 #speaker: #portrait:Default #music:Caution #background:Deeper Wilderness
 As you exited the bio-light dome there were various reports of wild animals in the area.
 The guards posted on exit requested you stay close.
-As you left the safety of the settlement, the creatures in the darkness could be heard in every direction.
+
+#speaker: Entrance Guard #portrait: Suit
+"Admiral I have disturbing news for you, our scientists have decrypted truly horrifying datalogs."
+#speaker: #portrait:Default
+The soldier began to deliver a report that should have been the work of a dark and twisted mind.
+#speaker: Entrance Guard #portrait: Suit
+"The dominant life forms of this planet called themselves humans, they are most likely the architects of the various structure on this world."
+"I regret to inform you they have all but wiped themselves out in something called total atomic annihilation."
+"Whatever is left of them would be heavily deformed due to the raditaion of Uranium."
+#speaker: #portrait:Default
+You stood there frozen in fear for quite sometime, processing all of this new information. 
+The thought that these creatures harness Uranium for energy and most frightningly, weapons.
+You gesture to the solider to continue the report.
+#speaker: Entrance Guard #portrait: Suit
+"Our best estimates of these creatures are horrifying. On average they were 7ft tall" (213cm)
+"Bipedal predatory creatures with ample muscle mass and a lust for tribal warfare."
+"If at all possible Admiral I request you stay close as there have been disturbances around the perimeter."
+"We assume the wildlife is drawn to our lights but so far so gleb"
+#speaker: #portrait:Default
+You saluted the soldier and entered the airlock. 'Humans' surely the work of fiction.
+No creature could survive as a species when exposed to the wrath of Uranium.
+
+As you left the safety of the settlement, your suit notified you of your bodies' adjustments to the world.
+You could now exit your suit and not die instantaneously.
+Once the heavy airlock opened, the creatures in the darkness could be heard in every direction.
 With the planet's moon directly above, you pressed on into the darkness.
 #music: suspense-atmosphere-background-175969
 The dense foliage kept you on edge the whole time. Countless noises from beasts made you jump and reach for your neuralizer.
@@ -1133,12 +1159,15 @@ The lights went out.
 ===DeeperWilderness===
 #speaker: #portrait:Default #music:Suspense, Heart Racing, Tension #background:Deeper Wilderness
 Against your better judgement you pressed on towards the direction of the explosion. Every fiber of your being was telling you it was a mistake.
+#background:Fire
 The glow of a tritium infused fire was burning across the landscape. As you approached you could see the center of the blaze.
 One of the shuttles used to land on Erith was torn cleanly in two by a monstrosity of a creature.
 Approximately 80ft long, a quadrepdal reptile, possessing a tail and wings.
+#background:Dragon
 This creature was responsible, it bore the brunt of the explosion and worst of all.
 It was looking right at you.
 
+#background:Fire
 You had never sprinted as fast in your life. The beast however was quickly closing the gap.
 You ran aimlessly through the jungle, dodging branches and roots until it hit you.
 Searing hot fire threw you several feet into a nearby tree. 
@@ -1174,13 +1203,15 @@ You noticed the corpse of one of Kael's men hung from the ceiling, covered in bi
 They had gutted her and left her there whilst still alive, that was as much as you could gather from the gruesome look of fear on her face.
 #music: For Humans
 Before you could fully grasp the situation, one of the creatures turned, bearing teeth and with a frenzied look in it's optics.
-It grabbed a Klorax technician from the cage.
+It grabbed a Klorax technician from the open cage.
 The humans through her into the air with such ease, as if she we're a youngling, they began toying with her as they pulled her apart and devoured her before usual.
 
-You turned to where he was once sitting and then towards the others.
+You turned to where she was once sitting and then towards the others.
 They all watched in horror, unable to look away from the gruesome fate of their once friend.
 
-They laughed and gleefully snatched another before leaving the room. The screams could be heard by all that night.
+They laughed and gleefully snatched another before leaving the room, Not bothering to put a door in your way. 
+It was if they wanted the fight.
+The screams could be heard by all that night.
 #speaker: Admiral Kril #portrait: Admiral #music:Caution #background:
 "We need to stay calm and figure out our next move. These things are hostile and we are no match for them, but we have to find a way out of here."
 
